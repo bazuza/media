@@ -86,6 +86,7 @@ body {
     border-color: #dee6ea;
     background-color: #ffffff00;
     box-shadow: none;
+    border-radius: 2px !important;
 }
 
 .form-dropdown:focus,
