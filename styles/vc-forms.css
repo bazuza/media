@@ -60,6 +60,7 @@ body {
     margin: 0;
     padding: 30px 0;
     gap: 20px;
+    flex-wrap: nowrap;
 }
 
 .form-all .form-label {
@@ -201,7 +202,7 @@ body {
 
 .form-sub-label,
 .form-textarea-limit-indicator {
-    color: #758c92;
+    color: #758c92 !important;
     font-size: 12px;
 }
 
