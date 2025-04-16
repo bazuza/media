@@ -354,6 +354,7 @@ li[data-type="control_fileupload"] .jfUpload-files-container .inputContainer {
     display: none !important;
 }
 
+/* Subscribe form (depend with ID) */
 #cid_137 [data-wrapper-react="true"] {
     flex-direction: column !important;
     gap: 24px !important;
@@ -361,6 +362,11 @@ li[data-type="control_fileupload"] .jfUpload-files-container .inputContainer {
 #cid_137 .form-sub-label-container {
     margin: 0 !important;
 }
+#cid_138 .form-buttons-wrapper{
+    padding-top: 10px;
+}
+
+/* Response */
 @media screen and (max-width: 992px) {
     .form-all ul.page-section,
     .form-all .tabs-list ~ ul.page-section {
