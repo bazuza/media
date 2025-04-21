@@ -367,6 +367,10 @@ li[data-type="control_fileupload"] .jfUpload-files-container .inputContainer {
 }
 
 /* Calendar */
+div.calendar.popup {
+    margin-top: -115px;
+    border-radius: 0 0 2px 2px;
+}
 div.calendar.popup:before {
     border-radius: 2px;
 }
@@ -376,9 +380,32 @@ div.calendar.popup table {
 div.calendar.popup th {
     color: #ffc42c;
     background-color: #f7f7e9;
+    font-weight: 700;
+}
+div.calendar tr.days td:hover:not(.unselectable) {
+    color: #ffc42c;
+}
+div.calendar tr.days td:hover:not(.unselectable):after {
+    border-color: #ffc42c;
 }
 div.calendar.popup tr.days td.selected:after {
     background-color: #ffc42c;
+}
+.calendar.popup:after {
+    display: none;
+}
+
+/* Scroll widget */
+body[data-type=terms-scroll-widget] .slimScrollDiv {
+    border: 1px solid #ffc42c;
+    border-radius: 2px;
+}
+body[data-type=terms-scroll-widget] #action>input+label:after {
+    background-color: #ffc42c;
+    border-color: #ffc42c;
+}
+.slimScrollBar {
+    background: #ffc42c !important;
 }
 
 /* Response */
