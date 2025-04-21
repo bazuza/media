@@ -366,6 +366,21 @@ li[data-type="control_fileupload"] .jfUpload-files-container .inputContainer {
     padding-top: 10px;
 }
 
+/* Calendar */
+div.calendar.popup:before {
+    border-radius: 2px;
+}
+div.calendar.popup table {
+    border-radius: 0 0 2px 2px;
+}
+div.calendar.popup th {
+    color: #ffc42c;
+    background-color: #f7f7e9;
+}
+div.calendar.popup tr.days td.selected:after {
+    background-color: #ffc42c;
+}
+
 /* Response */
 @media screen and (max-width: 992px) {
     .form-all ul.page-section,
