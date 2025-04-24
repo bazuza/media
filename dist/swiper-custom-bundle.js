@@ -1,4 +1,4 @@
-var Swiper = (function () {
+var Swiper = (function (exports) {
   'use strict';
 
   /**
@@ -5051,10 +5051,14 @@ var Swiper = (function () {
   /*! Swiper v11 - MIT License - https://swiperjs.com/ */
 
 
-  Swiper.use([Navigation, Pagination]);
+  const modules = [Navigation, Pagination];
+  Swiper.use(modules);
 
-  window.Swiper = Swiper;
+  exports.Swiper = Swiper;
+  exports.default = Swiper;
 
-  return Swiper;
+  Object.defineProperty(exports, '__esModule', { value: true });
 
-})();
+  return exports;
+
+})({});
