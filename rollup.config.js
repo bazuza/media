@@ -7,7 +7,7 @@ export default {
   output: {
     file: 'dist/swiper-custom-bundle.js',
     format: 'iife',
-    name: 'SwiperCustom',
+    name: 'Swiper',
     sourcemap: false
   },
   plugins: [
