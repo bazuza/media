@@ -5,4 +5,6 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 Swiper.use([Navigation, Pagination]);
 
+window.Swiper = Swiper;
+
 export default Swiper;
