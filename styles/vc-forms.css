@@ -255,17 +255,25 @@ body {
     box-shadow: inset 4px 4px 10px #00000040;
 }
 
-.form-all .form-pagebreak-back,
-.form-all .form-pagebreak-next {
-    color: #081c29 !important;
-}
-
 .form-all .form-pagebreak-next {
     background-color: #ffc412;
+    color: #081c29 !important;
+    transition: box-shadow .2s;
+}
+.form-all .form-pagebreak-next:hover {
+    box-shadow: inset 4px 4px 10px #00000040;
 }
 
 .form-all .form-pagebreak-back {
     background-color: #f7f7e9 !important;
+    color: #ffc412 !important;
+    transition-property: color, background-color;
+    transition-duration: .2s, .2s;
+}
+
+.form-all .form-pagebreak-back:hover {
+    background-color: #ffc412 !important;
+    color: #081c29 !important;
 }
 
 .form-buttons-wrapper,
