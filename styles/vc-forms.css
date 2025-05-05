@@ -258,6 +258,7 @@ body {
 .form-all .form-pagebreak-next {
     background-color: #ffc412;
     color: #081c29 !important;
+    box-shadow: none;
     transition: box-shadow .2s;
 }
 .form-all .form-pagebreak-next:hover {
