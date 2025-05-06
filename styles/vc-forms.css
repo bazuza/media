@@ -288,7 +288,7 @@ body {
 
 li.form-line:not([data-payment=true]) [data-wrapper-react=true] {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 li[data-type="control_datetime"]
